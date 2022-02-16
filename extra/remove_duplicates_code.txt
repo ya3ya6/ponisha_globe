@@ -1,0 +1,51 @@
+// remove duplicates
+a = 'file'
+let all2 = []
+a.features.forEach(c => {
+  let found = all2.find(c2 => c2.properties.sov0name === c.properties.sov0name);
+  if(!found)  {all2 = all2.concat(c);}
+  else {found.properties['pop_max'] += c.properties['pop_max'];}
+})
+a.features = all2
+console.log(a)
+
+// before count: 235 ||| after count: 197
+
+// get duplicate names to change lat long
+let all = a.features.filter(c => a.features.find(c2 => c2.properties.sov0name === c.properties.sov0name && c2.properties.name != c.properties.name))
+all.reduce((a, c) => {
+  return a.find(c2 => c.properties.name === c.properties.name) ? a : a.concat([c])
+}, [])
+all.map(c => c.properties.sov0name).reduce((acc, cur) => !acc.find(z => z === cur) ? acc.concat(cur) : acc, [])
+
+
+/* count: 26
+[
+    "Swaziland",
+    "Kingdom of the Netherlands",
+    "Sri Lanka",
+    "Philippines",
+    "United Republic of Tanzania",
+    "Switzerland",
+    "Morocco",
+    "Malaysia",
+    "Japan",
+    "Benin",
+    "United Arab Emirates",
+    "South Africa",
+    "Nigeria",
+    "Chile",
+    "Ivory Coast",
+    "Canada",
+    "Bolivia",
+    "Australia",
+    "Myanmar",
+    "Israel",
+    "New Zealand",
+    "Turkey",
+    "Brazil",
+    "Mexico",
+    "China",
+    "India"
+]
+*/
