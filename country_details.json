@@ -80,19 +80,14 @@
         "link": "https://en.wikipedia.org/wiki/Rwanda"
     },
     {
-        "name": "Swaziland",
-        "desc": "Swaziland Is a country which has 1136191 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Swaziland"
-    },
-    {
         "name": "South Sudan",
         "desc": "South Sudan Is a country which has 10975920 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/South Sudan"
     },
     {
-        "name": "Kingdom of the Netherlands",
-        "desc": "Kingdom of the Netherlands Is a country which has  -  population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Kingdom of the Netherlands"
+        "name": "Netherlands",
+        "desc": "Netherlands Is a country which has 17231624 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "link": "https://en.wikipedia.org/wiki/Netherlands"
     },
     {
         "name": "Slovenia",
@@ -125,9 +120,9 @@
         "link": "https://en.wikipedia.org/wiki/Philippines"
     },
     {
-        "name": "United Republic of Tanzania",
-        "desc": "United Republic of Tanzania Is a country which has  -  population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/United Republic of Tanzania"
+        "name": "Tanzania",
+        "desc": "Tanzania Is a country which has 56318348 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "link": "https://en.wikipedia.org/wiki/Tanzania"
     },
     {
         "name": "Switzerland",
@@ -340,11 +335,6 @@
         "link": "https://en.wikipedia.org/wiki/South Africa"
     },
     {
-        "name": "South Africa",
-        "desc": "South Africa Is a country which has 57779622 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/South Africa"
-    },
-    {
         "name": "Papua New Guinea",
         "desc": "Papua New Guinea Is a country which has 8606316 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Papua New Guinea"
@@ -358,11 +348,6 @@
         "name": "Panama",
         "desc": "Panama Is a country which has 4176873 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Panama"
-    },
-    {
-        "name": "Morocco",
-        "desc": "Morocco Is a country which has 36029138 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Morocco"
     },
     {
         "name": "Moldova",
@@ -383,11 +368,6 @@
         "name": "Oman",
         "desc": "Oman Is a country which has 4829483 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Oman"
-    },
-    {
-        "name": "Sri Lanka",
-        "desc": "Sri Lanka Is a country which has 21670000 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Sri Lanka"
     },
     {
         "name": "Mongolia",
@@ -610,16 +590,6 @@
         "link": "https://en.wikipedia.org/wiki/Cambodia"
     },
     {
-        "name": "Bolivia",
-        "desc": "Bolivia Is a country which has 11353142 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Bolivia"
-    },
-    {
-        "name": "Benin",
-        "desc": "Benin Is a country which has 11485048 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Benin"
-    },
-    {
         "name": "Bulgaria",
         "desc": "Bulgaria Is a country which has 7025037 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Bulgaria"
@@ -775,11 +745,6 @@
         "link": "https://en.wikipedia.org/wiki/Korea, North"
     },
     {
-        "name": "United Republic of Tanzania",
-        "desc": "United Republic of Tanzania Is a country which has  -  population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/United Republic of Tanzania"
-    },
-    {
         "name": "Ireland",
         "desc": "Ireland Is a country which has 4867309 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Ireland"
@@ -788,11 +753,6 @@
         "name": "Liberia",
         "desc": "Liberia Is a country which has 4818977 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Liberia"
-    },
-    {
-        "name": "Malaysia",
-        "desc": "Malaysia Is a country which has 31528585 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Malaysia"
     },
     {
         "name": "Cuba",
@@ -825,11 +785,6 @@
         "link": "https://en.wikipedia.org/wiki/Libya"
     },
     {
-        "name": "Israel",
-        "desc": "Israel Is a country which has 8882800 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Israel"
-    },
-    {
         "name": "Finland",
         "desc": "Finland Is a country which has 5515525 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Finland"
@@ -838,11 +793,6 @@
         "name": "Denmark",
         "desc": "Denmark Is a country which has 5793636 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Denmark"
-    },
-    {
-        "name": "Ivory Coast",
-        "desc": "Ivory Coast Is a country which has 25069229 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Ivory Coast"
     },
     {
         "name": "Brazil",
@@ -870,36 +820,6 @@
         "link": "https://en.wikipedia.org/wiki/Algeria"
     },
     {
-        "name": "Myanmar",
-        "desc": "Myanmar Is a country which has 53708395 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Myanmar"
-    },
-    {
-        "name": "United States",
-        "desc": "United States Is a country which has 326687501 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/United States"
-    },
-    {
-        "name": "United States",
-        "desc": "United States Is a country which has 326687501 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/United States"
-    },
-    {
-        "name": "United States",
-        "desc": "United States Is a country which has 326687501 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/United States"
-    },
-    {
-        "name": "United States",
-        "desc": "United States Is a country which has 326687501 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/United States"
-    },
-    {
-        "name": "United States",
-        "desc": "United States Is a country which has 326687501 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/United States"
-    },
-    {
         "name": "United States",
         "desc": "United States Is a country which has 326687501 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/United States"
@@ -915,11 +835,6 @@
         "link": "https://en.wikipedia.org/wiki/Ukraine"
     },
     {
-        "name": "United Arab Emirates",
-        "desc": "United Arab Emirates Is a country which has 9630959 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/United Arab Emirates"
-    },
-    {
         "name": "Uzbekistan",
         "desc": "Uzbekistan Is a country which has 32955400 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Uzbekistan"
@@ -928,11 +843,6 @@
         "name": "Kingdom of Spain",
         "desc": "Kingdom of Spain Is a country which has  -  population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Kingdom of Spain"
-    },
-    {
-        "name": "Switzerland",
-        "desc": "Switzerland Is a country which has 8513227 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Switzerland"
     },
     {
         "name": "Sweden",
@@ -955,29 +865,9 @@
         "link": "https://en.wikipedia.org/wiki/Senegal"
     },
     {
-        "name": "South Africa",
-        "desc": "South Africa Is a country which has 57779622 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/South Africa"
-    },
-    {
-        "name": "Kingdom of the Netherlands",
-        "desc": "Kingdom of the Netherlands Is a country which has  -  population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Kingdom of the Netherlands"
-    },
-    {
-        "name": "Morocco",
-        "desc": "Morocco Is a country which has 36029138 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Morocco"
-    },
-    {
         "name": "Korea, South",
         "desc": "Korea, South Is a country which has  -  population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Korea, South"
-    },
-    {
-        "name": "Philippines",
-        "desc": "Philippines Is a country which has 106651922 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Philippines"
     },
     {
         "name": "Mexico",
@@ -995,24 +885,9 @@
         "link": "https://en.wikipedia.org/wiki/China"
     },
     {
-        "name": "China",
-        "desc": "China Is a country which has 1392730000 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/China"
-    },
-    {
-        "name": "Japan",
-        "desc": "Japan Is a country which has 126529100 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Japan"
-    },
-    {
         "name": "Congo (Kinshasa)",
         "desc": "Congo (Kinshasa) Is a country which has  -  population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Congo (Kinshasa)"
-    },
-    {
-        "name": "India",
-        "desc": "India Is a country which has 1352617328 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/India"
     },
     {
         "name": "India",
@@ -1040,16 +915,6 @@
         "link": "https://en.wikipedia.org/wiki/Iran"
     },
     {
-        "name": "Canada",
-        "desc": "Canada Is a country which has 37057765 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Canada"
-    },
-    {
-        "name": "Canada",
-        "desc": "Canada Is a country which has 37057765 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Canada"
-    },
-    {
         "name": "Argentina",
         "desc": "Argentina Is a country which has 44494502 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Argentina"
@@ -1065,34 +930,9 @@
         "link": "https://en.wikipedia.org/wiki/Austria"
     },
     {
-        "name": "Australia",
-        "desc": "Australia Is a country which has 24982688 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Australia"
-    },
-    {
         "name": "Taiwan",
         "desc": "Taiwan Is a country which has  -  population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Taiwan"
-    },
-    {
-        "name": "New Zealand",
-        "desc": "New Zealand Is a country which has 4841000 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/New Zealand"
-    },
-    {
-        "name": "United States",
-        "desc": "United States Is a country which has 326687501 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/United States"
-    },
-    {
-        "name": "United States",
-        "desc": "United States Is a country which has 326687501 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/United States"
-    },
-    {
-        "name": "United States",
-        "desc": "United States Is a country which has 326687501 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/United States"
     },
     {
         "name": "United Kingdom",
@@ -1100,19 +940,9 @@
         "link": "https://en.wikipedia.org/wiki/United Kingdom"
     },
     {
-        "name": "Turkey",
-        "desc": "Turkey Is a country which has 82319724 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Turkey"
-    },
-    {
         "name": "Saudi Arabia",
         "desc": "Saudi Arabia Is a country which has 33699947 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Saudi Arabia"
-    },
-    {
-        "name": "South Africa",
-        "desc": "South Africa Is a country which has 57779622 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/South Africa"
     },
     {
         "name": "Russia",
@@ -1120,24 +950,9 @@
         "link": "https://en.wikipedia.org/wiki/Russia"
     },
     {
-        "name": "Mexico",
-        "desc": "Mexico Is a country which has 126190788 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Mexico"
-    },
-    {
-        "name": "Nigeria",
-        "desc": "Nigeria Is a country which has 195874740 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Nigeria"
-    },
-    {
         "name": "Italy",
         "desc": "Italy Is a country which has 60421760 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Italy"
-    },
-    {
-        "name": "China",
-        "desc": "China Is a country which has 1392730000 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/China"
     },
     {
         "name": "Kenya",
@@ -1160,58 +975,13 @@
         "link": "https://en.wikipedia.org/wiki/Egypt"
     },
     {
-        "name": "China",
-        "desc": "China Is a country which has 1392730000 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/China"
-    },
-    {
-        "name": "Japan",
-        "desc": "Japan Is a country which has 126529100 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Japan"
-    },
-    {
-        "name": "India",
-        "desc": "India Is a country which has 1352617328 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/India"
-    },
-    {
         "name": "French Republic",
         "desc": "French Republic Is a country which has  -  population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/French Republic"
     },
     {
-        "name": "Chile",
-        "desc": "Chile Is a country which has 18729160 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Chile"
-    },
-    {
-        "name": "India",
-        "desc": "India Is a country which has 1352617328 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/India"
-    },
-    {
-        "name": "Brazil",
-        "desc": "Brazil Is a country which has 209469333 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Brazil"
-    },
-    {
-        "name": "Brazil",
-        "desc": "Brazil Is a country which has 209469333 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Brazil"
-    },
-    {
-        "name": "Australia",
-        "desc": "Australia Is a country which has 24982688 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/Australia"
-    },
-    {
         "name": "Singapore",
         "desc": "Singapore Is a country which has 5638676 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Singapore"
-    },
-    {
-        "name": "China",
-        "desc": "China Is a country which has 1392730000 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "link": "https://en.wikipedia.org/wiki/China"
     }
 ]
