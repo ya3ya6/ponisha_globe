@@ -1,3 +1,4 @@
+
 .map-popup {
     position: fixed;
     left: 200px;
@@ -7,7 +8,7 @@
     z-index: 100;
     color: white;
     text-align: center;
-    font-family: Helvetica;
+    font-family: 'Roboto', sans-serif;
     padding: 14px 4px;
     box-sizing: border-box;
     border-radius: 4px;
@@ -34,7 +35,7 @@
     text-align: center;
     font-size: 21px;
     color: #ffffff;
-    font-family: Helvetica;
+    font-family: 'Roboto', sans-serif;
     direction: rtl;
     line-height: 130%;
     bottom: 0;
@@ -57,7 +58,7 @@
 }
 
 .country-details p.desc {
-    font-size: 14px;
+    font-size: 15px;
     text-align: left;
     overflow: auto;
     padding: 0 10px;
