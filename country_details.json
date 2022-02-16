@@ -521,6 +521,7 @@
     },
     {
         "name": "Congo (Brazzaville)",
+        "name2": "Republic of the Congo",
         "desc": "Congo (Brazzaville) Is a country which has  -  population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Congo (Brazzaville)"
     },
@@ -731,6 +732,7 @@
     },
     {
         "name": "Kingdom of Norway",
+        "name2": "Norway",
         "desc": "Kingdom of Norway Is a country which has  -  population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Kingdom of Norway"
     },
@@ -741,6 +743,7 @@
     },
     {
         "name": "Korea, North",
+        "name2": "North Korea",
         "desc": "Korea, North Is a country which has  -  population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Korea, North"
     },
@@ -761,6 +764,7 @@
     },
     {
         "name": "Czech Republic",
+        "name2": "Czechia",
         "desc": "Czech Republic Is a country which has 10629928 population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Czech Republic"
     },
@@ -841,6 +845,7 @@
     },
     {
         "name": "Kingdom of Spain",
+        "name2": "Spain",
         "desc": "Kingdom of Spain Is a country which has  -  population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Kingdom of Spain"
     },
@@ -866,6 +871,7 @@
     },
     {
         "name": "Korea, South",
+        "name2": "South Korea",
         "desc": "Korea, South Is a country which has  -  population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Korea, South"
     },
@@ -886,6 +892,7 @@
     },
     {
         "name": "Congo (Kinshasa)",
+        "name2": "Democratic Republic of the Congo",
         "desc": "Congo (Kinshasa) Is a country which has  -  population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/Congo (Kinshasa)"
     },
@@ -976,6 +983,7 @@
     },
     {
         "name": "French Republic",
+        "name2": "Frence",
         "desc": "French Republic Is a country which has  -  population. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "link": "https://en.wikipedia.org/wiki/French Republic"
     },
