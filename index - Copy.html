@@ -25,19 +25,9 @@
 <div id="globeViz"></div>
 <link rel="stylesheet" href="style.css"></link>
 <script>
-  let isTouchDevice = () => (('ontouchstart' in window) ||
-   (navigator.maxTouchPoints > 0) ||
-   (navigator.msMaxTouchPoints > 0));
-
-  // track mouse pos
   let mousePos = {}
   onmousemove = function(e){mousePos = {x: e.clientX, y: e.clientY}}
-  /*window.addEventListener('touchstart', function(e) {
-    clientX = e.touches[0].clientX;
-    clientY = e.touches[0].clientY;
-    mousePos = {x: clientX, y: clientY}
-  }, false);*/
-  
+
   const sel = q => document.querySelector(q)
   const mapPopup = sel('.map-popup')
   const countryDetails = sel('.country-details')
@@ -57,7 +47,7 @@
       fetch('country_details.json').then(res => res.json()).then(country_details => {
         let handleCountryClick = (h, world) => {
           let country_det = country_details.find(c => c.name.toLowerCase() === currentHoverD.properties.sov0name.toLowerCase());
-          window.open(country_det.link);
+          alert(country_det.link);
           return;          
           countryDetails.style.display = "";
           countryDetails.querySelector('.name').innerText = currentHoverD.properties.sov0name;
@@ -80,15 +70,14 @@
           .labelColor(() => 'rgba(255, 165, 0, 0.75)')
           .labelResolution(2)
           .labelAltitude(0.01)
-          .onLabelClick(h => {currentHoverD = h; handleCountryClick(h, world); })
+          .onLabelClick(h => {alert('d');currentHoverD = h; handleCountryClick(h, world); })
           .onLabelHover(h => {
-            if(isTouchDevice()) return;
             if(h){
               mapPopup.style.display = '';
-              mapPopup.querySelector('.name').innerText = (() => {let details = country_details.find(cc => cc.name === h.properties.sov0name); return details.name2 || details.name})();
+              mapPopup.querySelector('.name').innerText = h.properties.sov0name;
               mapPopup.querySelector('img').src = 'flags/' + h.properties.iso_a2.toLowerCase() + '.png';
-              mapPopup.style.left = mousePos.x - mapPopup.getBoundingClientRect().width / 2 + 'px';
-              mapPopup.style.top = mousePos.y - mapPopup.getBoundingClientRect().height + 'px';
+              mapPopup.style.left = mousePos.x+'px';
+              mapPopup.style.top = mousePos.y+'px';
             }else{
               mapPopup.style.display = 'none';              
             }

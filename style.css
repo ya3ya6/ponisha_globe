@@ -1,10 +1,8 @@
 
 .map-popup {
     position: fixed;
-    left: 200px;
     width: 120px;
-    background: #d5e4edbd;
-    top: 20px;
+    /*background: #d5e4edbd;*/
     z-index: 100;
     color: white;
     text-align: center;
@@ -12,7 +10,20 @@
     padding: 14px 4px;
     box-sizing: border-box;
     border-radius: 4px;
+    pointer-events: none;
 }
+
+/*
+@media only screen and (max-width: 950px) {
+  .map-popup {
+      width: 30%;
+  }
+  .map-popup .name {
+      font-size: 3rem;
+  }
+
+}
+*/
 
 .map-popup .desc {
     font-size: 14px;
@@ -21,6 +32,7 @@
 .map-popup .name {
     font-size: 17px;
     color: #fff;
+    margin-top: 0.2rem;
 }
 
 .country-details {
