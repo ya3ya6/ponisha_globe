@@ -5,8 +5,8 @@
 
   <style> body { margin: 0; } </style>
   <script src="https://unpkg.com/globe.gl"></script>
-  <script src="https://unpkg.com/d3"></script>
-  <script src="https://unpkg.com/three"></script>
+  <!--<script src="https://unpkg.com/d3"></script>
+  <script src="https://unpkg.com/three"></script>-->
 </head>
 
 <body>
@@ -24,52 +24,16 @@
 <div id="globeViz"></div>
 <link rel="stylesheet" href="style.css"></link>
 <script>
-    const colorScale = d3.scaleSequentialSqrt(d3.interpolateYlOrRd);
-
-    // GDP per capita (avoiding countries with small pop)
-    const getVal = feat => feat.properties.GDP_MD_EST / Math.max(1e5, feat.properties.POP_EST);
-
-
   const sel = q => document.querySelector(q)
   // const mapPopup = sel('.map-popup')
   const countryDetails = sel('.country-details')
-
-  const gData = [{
-    lat: 0,
-    lng: 0,
-    alt: 100,
-    radius: 4,
-    color: '#ffac13' // ffb429
-  }, {
-    lat: 0,
-    lng: 0,
-    alt: 100,
-    radius: 4,
-    color: '#ffe216'
-  }];
 
   let currentHoverD = null;
   fetch('ne_110m_populated_places_simple.geojson').then(res => res.json()).then(places => {
     fetch('ne_110m_admin_0_countries.geojson').then(res => res.json()).then(countries => {
       let countries_features = countries.features.filter(d => d.properties.ISO_A2 !== 'AQ')
-      const maxVal = Math.max(...countries.features.map(getVal));
-      colorScale.domain([0, maxVal]);
-
-
       fetch('country_details.json').then(res => res.json()).then(country_details => {
-        let handleCountryClick = (h, world) => {
-          // world.polygonCapColor(f => f.properties.SOVEREIGNT === currentHoverD.properties.sov0name ? '#ffac1355' : 'transparent');
-          
-          world.polygonCapColor(f => '#ffac1355');
-          world.polygonsData(countries_features.filter(c => c.properties.SOVEREIGNT === currentHoverD.properties.sov0name));
-          
-          // world.labelColor(d => d === currentHoverD ? 'steelblue' : 'rgba(255, 165, 0, 0.75)');
-          gData[0].alt = 100;
-          gData[1].alt = 0;
-          gData[1].lat = currentHoverD.properties.latitude;
-          gData[1].lng = currentHoverD.properties.longitude;
-          gData[1].radius = Math.sqrt(currentHoverD.properties.pop_max) * 4e-4;
-          world.customLayerData(world.customLayerData());
+        let handleCountryClick = (h, world) => {                    
           countryDetails.style.display = "";
           countryDetails.querySelector('.name').innerText = currentHoverD.properties.sov0name;
           let country_det = country_details.find(c => c.name.toLowerCase() === currentHoverD.properties.sov0name.toLowerCase());
@@ -83,23 +47,6 @@
         const world = Globe()
           .globeImageUrl('https://unpkg.com/three-globe/example/img/earth-night.jpg')
           .backgroundImageUrl('https://unpkg.com/three-globe/example/img/night-sky.png')
-
-          .polygonsData([])
-          //.polygonAltitude(0.06)
-          .polygonCapColor(feat => 'transparent') // colorScale(getVal(feat))
-          .polygonSideColor(() => 'rgba(0, 100, 0, 0.15)')
-          .polygonStrokeColor(() => '#ffac1355')
-
-
-          .customLayerData(gData)
-          .customThreeObject(d => new THREE.Mesh(
-            new THREE.SphereBufferGeometry(d.radius),
-            new THREE.MeshLambertMaterial({ color: d.color, opacity: 0.8, transparent: true })
-          ))
-          .customThreeObjectUpdate((obj, d) => {
-            Object.assign(obj.position, world.getCoords(d.lat, d.lng, d.alt));
-            Object.assign(obj.scale, {x: d.radius / 2, y: d.radius / 2, z: d.radius / 2});
-          })
           .labelsData(places.features)
           .labelLat(d => d.properties.latitude)
           .labelLng(d => d.properties.longitude)
@@ -109,27 +56,7 @@
           .labelColor(() => 'rgba(255, 165, 0, 0.75)')
           .labelResolution(2)
           .labelAltitude(0.01)
-          .onLabelHover(hoverD => {
-             // world.labelColor(d => d === hoverD ? 'steelblue' : 'rgba(255, 165, 0, 0.75)'); console.log('e')
-             if(hoverD){
-               gData[0].alt = 0.015;
-               // document.querySelector('body').style.cursor = 'pointer';
-               gData[0].lat = hoverD.properties.latitude;
-               gData[0].lng = hoverD.properties.longitude;
-               gData[0].radius = Math.sqrt(hoverD.properties.pop_max) * 4e-4;
-               world.customLayerData(world.customLayerData());
-               currentHoverD = hoverD;
-               // mapPopup.querySelector('.name').innerText = 'name';
-               // mapPopup.querySelector('.desc').innerText = 'desc';
-             }
-             // if(!hoverD) document.querySelector('body').style.cursor = 'default';
-           }
-          ).onCustomLayerHover(hoverD => {
-             // if(hoverD) document.querySelector('body').style.cursor = 'pointer';
-             // if(!hoverD) document.querySelector('body').style.cursor = 'default';
-           }
-          ).onCustomLayerClick(h => handleCountryClick(h, world))
-           //.onLabelClick(h => handleCountryClick(h, world))
+          .onLabelClick(h => {currentHoverD = h; handleCountryClick(h, world); })
         (document.getElementById('globeViz'))
       })
     })
