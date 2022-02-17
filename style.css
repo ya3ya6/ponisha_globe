@@ -37,7 +37,8 @@
     line-height: 110%;
     display: flex;
     flex-direction: column;
-    
+    border-radius: 0.7rem;
+    overflow: hidden;    
     
     width: 60%;
     height: 80%;
