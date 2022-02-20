@@ -18,7 +18,8 @@
 <div class="country-details" style="display: none">
   <div class="btn-close">×</div>
   <div class="name"></div>
-  <p class="desc"></p>
+  <!--<p class="desc"></p>-->
+  <img src="flags/ad.png" style="width: inherit; height: auto; margin: 4rem auto;" />
   <a class="learn-more" target="_blank">Learn more</a>
 </div>
 
@@ -57,16 +58,21 @@
       fetch('country_details.json').then(res => res.json()).then(country_details => {
         let handleCountryClick = (h, world) => {
           let country_det = country_details.find(c => c.name.toLowerCase() === currentHoverD.properties.sov0name.toLowerCase());
-          window.open(country_det.link);
-          return;          
-          countryDetails.style.display = "";
-          countryDetails.querySelector('.name').innerText = currentHoverD.properties.sov0name;
-          countryDetails.querySelector('.desc').innerText = country_det ? country_det.desc : "";
-          if(country_det && country_det.link){
-           countryDetails.querySelector('.learn-more').style.display = "block";
-           countryDetails.querySelector('.learn-more').href = country_det.link;
+          if(!isTouchDevice()){
+            window.open(country_det.link);
           }
-          else countryDetails.querySelector('.learn-more').style.display = "none";
+          else{
+            // return;
+            countryDetails.style.display = "";
+            countryDetails.querySelector('.name').innerText = currentHoverD.properties.sov0name;
+            // countryDetails.querySelector('.desc').innerText = country_det ? country_det.desc : "";
+            countryDetails.querySelector('img').src = 'flags/' + currentHoverD.properties.iso_a2.toLowerCase() + '.png';
+            if(country_det && country_det.link){
+             countryDetails.querySelector('.learn-more').style.display = "block";
+             countryDetails.querySelector('.learn-more').href = country_det.link;
+            }
+            else countryDetails.querySelector('.learn-more').style.display = "none";
+          }
         };
         const world = Globe()
           .globeImageUrl('https://unpkg.com/three-globe/example/img/earth-night.jpg')
@@ -75,8 +81,8 @@
           .labelLat(d => d.properties.latitude)
           .labelLng(d => d.properties.longitude)
           .labelText(d => {let details = country_details.find(cc => cc.name === d.properties.sov0name); return details.name2 || details.name})
-          .labelSize(d => Math.sqrt(d.properties.pop_max) * 4e-4)
-          .labelDotRadius(d => Math.sqrt(d.properties.pop_max) * 4e-4)
+          .labelSize(d => Math.sqrt(Math.max(Math.min(d.properties.pop_max, 2000000), 0)) * 4e-4) // 400000
+          .labelDotRadius(d => Math.sqrt(Math.max(Math.min(d.properties.pop_max, 2000000), 0)) * 4e-4)
           .labelColor(() => 'rgba(255, 165, 0, 0.75)')
           .labelResolution(2)
           .labelAltitude(0.01)

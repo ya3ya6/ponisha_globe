@@ -54,13 +54,14 @@
     width: 60%;
     height: fit-content;
     max-height: 80%;
-    font-size: 3rem;
+    font-size: 8rem;
     left: 20%;
     top: 50%;
     transform: translateY(-50%);
 }
 
 .country-details .learn-more {
+    font-size: 4rem;
     background: white;
     padding: 7px 13px;
     margin-top: 10px;
@@ -78,6 +79,7 @@
     text-align: left;
     overflow: auto;
     padding: 0 10px;
+    font-size: 4rem;
 }
 .country-details .name {
     font-weight: bold;
@@ -85,11 +87,12 @@
     text-transform: uppercase;
     background: white;
     padding: 7px;
+    font-size: 4rem;
 }
 
 .country-details .btn-close {
     position: absolute;
-    right: 10px;
+    right: 2rem;
     top: 8px;
     z-index: 1000;
     color: #515356;
