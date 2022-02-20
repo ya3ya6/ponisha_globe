@@ -73,7 +73,11 @@
     display: block;
     margin: auto 10px 10px 10px;
 }
-
+.country-details img{
+  width: 400px;
+  height: auto;
+  margin: 4rem auto;
+}
 .country-details p.desc {
     font-size: 1.7rem;
     text-align: left;

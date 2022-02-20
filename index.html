@@ -19,8 +19,8 @@
   <div class="btn-close">×</div>
   <div class="name"></div>
   <!--<p class="desc"></p>-->
-  <img src="flags/ad.png" style="width: inherit; height: auto; margin: 4rem auto;" />
-  <a class="learn-more" target="_blank">Learn more</a>
+  <a target="_blank"><img src="flags/ad.png" /></a>
+  <!--<a class="learn-more" target="_blank">Learn more</a>!-->
 </div>
 
 <div id="globeViz"></div>
@@ -68,8 +68,8 @@
             // countryDetails.querySelector('.desc').innerText = country_det ? country_det.desc : "";
             countryDetails.querySelector('img').src = 'flags/' + currentHoverD.properties.iso_a2.toLowerCase() + '.png';
             if(country_det && country_det.link){
-             countryDetails.querySelector('.learn-more').style.display = "block";
-             countryDetails.querySelector('.learn-more').href = country_det.link;
+             // countryDetails.querySelector('.learn-more').style.display = "block";
+             countryDetails.querySelector('a').href = country_det.link;
             }
             else countryDetails.querySelector('.learn-more').style.display = "none";
           }
@@ -81,8 +81,9 @@
           .labelLat(d => d.properties.latitude)
           .labelLng(d => d.properties.longitude)
           .labelText(d => {let details = country_details.find(cc => cc.name === d.properties.sov0name); return details.name2 || details.name})
-          .labelSize(d => Math.sqrt(Math.max(Math.min(d.properties.pop_max, 2000000), 0)) * 4e-4) // 400000
-          .labelDotRadius(d => Math.sqrt(Math.max(Math.min(d.properties.pop_max, 2000000), 0)) * 4e-4)
+          // Math.max(Math.min(d.properties.pop_max, 2000000), 0)
+          .labelSize(d => Math.sqrt(Math.max(Math.min(d.properties.pop_max, 2000000), 500000)) * 4e-4) // 400000
+          .labelDotRadius(d => Math.sqrt(1743000) * 4e-4)
           .labelColor(() => 'rgba(255, 165, 0, 0.75)')
           .labelResolution(2)
           .labelAltitude(0.01)
@@ -99,7 +100,13 @@
               mapPopup.style.display = 'none';              
             }
           })
-        (document.getElementById('globeViz'))
+        (document.getElementById('globeViz'));
+        const controls = world.controls();
+        controls.addEventListener('change', () => {
+            const pov = world.pointOfView();
+            // controls.rotateSpeed = pov.altitude * 0.25;
+            controls.zoomSpeed = (pov.altitude + 1) * 0.5;
+        });
       })
     })
   });
