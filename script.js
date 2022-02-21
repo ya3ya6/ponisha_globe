@@ -74,6 +74,7 @@
           })
         (document.getElementById('globeViz'));
         const controls = world.controls();
+        world.pointOfView({ lat: 32.4279, lng: 53.6880, altitude: 1.5 }); 
         controls.addEventListener('change', () => {
             const pov = world.pointOfView();
             // controls.rotateSpeed = pov.altitude * 0.25;
